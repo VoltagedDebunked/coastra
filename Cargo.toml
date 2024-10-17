@@ -17,9 +17,3 @@ conrod_glium = "0.76.1"
 conrod_winit = "0.76.1"
 glium = "0.36.0"
 winit = "0.30.5"
-
-[package.metadata]
-publish = ["github"]
-
-[registries]
-github = { index = "https://github.com/rust-lang/crates.io-index" }
