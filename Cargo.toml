@@ -1,6 +1,26 @@
 [package]
 name = "coastra"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
+description = "A GUI Library for Rust."
+homepage = "https://coastra.vercel.app"
+repository = "https://github.com/voltageddebunked/coastra"
+license-file = "LICENSE"
+build = "build.rs"
+
+[lib]
+crate-type = ["cdylib"]
+name = "coastragui"
 
 [dependencies]
+conrod_core = "0.75"
+conrod_glium = "0.75"
+conrod_winit = "0.75"
+glium = "0.30"
+winit = "0.26"
+
+[package.metadata]
+publish = ["github"]
+
+[registries]
+github = { index = "https://github.com/rust-lang/crates.io-index" }
