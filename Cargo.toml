@@ -9,7 +9,7 @@ license-file = "LICENSE"
 
 [lib]
 crate-type = ["cdylib"]
-name = "coastragui"
+name = "coastra"
 
 [dependencies]
 conrod_core = "0.76.1"
