@@ -302,7 +302,7 @@ dependencies = [
 
 [[package]]
 name = "coastra"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "conrod_core",
  "conrod_glium",
