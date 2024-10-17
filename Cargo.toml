@@ -6,7 +6,6 @@ description = "A GUI Library for Rust."
 homepage = "https://coastra.vercel.app"
 repository = "https://github.com/voltageddebunked/coastra"
 license-file = "LICENSE"
-build = "build.rs"
 
 [lib]
 crate-type = ["cdylib"]
